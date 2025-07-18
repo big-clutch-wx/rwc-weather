@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Redwood Creek</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow-x: hidden;
+      font-family: Arial, sans-serif;
+      color: white;
+    }
+
+    /* Fullscreen Video Background */
+    #background-video {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+    }
+
+    /* Page content */
+    .content {
+      position: relative;
+      z-index: 1;
+      padding: 2rem;
+      background-color: rgba(0, 0, 0, 0.6); /* Optional: semi-transparent background for better text contrast */
+      max-width: 900px;
+      margin: 0 auto;
+    }
+	h1 {
+  text-align: center;
+}
+
+
+    h1, h2, h3 {
+      margin-top: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    ul {
+      margin-top: 0.3rem;
+      margin-bottom: 1rem;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 1rem 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Background Video -->
+  <video autoplay muted loop id="background-video">
+    <source src="IMG_0753.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+
+  <!-- Page Content -->
+  <div class="content">
+    <h1 class="center-title">Redwood Creek</h1>
+    <h2>Location</h2>
+    <p>Elevation: 31’</p>
+	<p>Begins near Canada College, crosses I-280 at the Farm Hill Road junction, heads south and then turns southeast. Turns towards the northeast and crosses I-280 again at the SR-84 junction. Continues northeast, becomes a concrete channel at Alameda De Las Pulgas (former USGS stream gage). Confluence with Arroyo Ojo de Agua and then empties into the Bay.</p>
+
+    <h2>NOAA Atlas 14 Precipitation Frequency Estimates:</h2>
+    <img src="Opera Snapshot_2025-07-17_005033_hdsc.nws.noaa.gov.png" alt="Precipitation Frequency Table">
+
+    <h2>Hydrology</h2>
+    <p>
+      Creek needs prolonged high-intensity rainfall in order to flood, possibly a 1/50 or 1/100 year event in the range of 60 min – 3 days. Saturated soils also lower precipitation requirement (7 – 30 day totals).
+    </p>
+
+    <h2>Dimensions</h2>
+    <h3>Height:</h3>
+    <ul>
+      <li>75” bottom of the bridge</li>
+      <li>80” top of concrete barrier</li>
+      <li>95” top of bridge</li>
+      <li>46” from bottom to line</li>
+      <li>34” from line to top</li>
+    </ul>
+
+    <h3>Width:</h3>
+    <p>198” or 16.5’</p>
+
+    <h2>Flood Thresholds</h2>
+    <h3>Stages:</h3>
+    <ul>
+      <li><strong>Monitor:</strong> 5’ ~1215 cfs – Creek nearing flood stage</li>
+      <li><strong>Minor:</strong> 6.7’ ~1710 cfs – Creek at flood stage, reaches front yard</li>
+      <li><strong>Moderate:</strong> 7.7’ – Creek reaches porch level, road level</li>
+      <li><strong>Major:</strong> 10.7’ – Creek reaches front window level</li>
+    </ul>
+
+    <h2>Flood History</h2>
+    <p>Coming soon...</p>
+  </div>
+
+</body>
+</html>
+

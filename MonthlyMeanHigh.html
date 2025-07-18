@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rainfall Table</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding-top: 2rem;
+            background: url(creek.png) no-repeat center center fixed;
+            background-size: cover;
+            position: relative;
+            z-index: 0;
+        }
+
+        /* Add a faded overlay effect for the background image */
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.8); /* White overlay with opacity */
+            z-index: -1; /* Places it behind the table */
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 2rem;
+            width: 80%;
+            max-width: 900px;
+            background-color: 
+            padding: 1rem;
+            border-radius: 8px;
+        }
+
+        .title {
+            font-size: 28px;
+            margin-bottom: 0.5rem;
+        }
+
+        .subtitle {
+            margin-top: 0;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            max-width: 900px;
+            margin: 0 auto;
+            table-layout: fixed;
+            background-color: rgba(255, 255, 255, 0.9); /* White background for table */
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        th, td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+            font-size: 18px;
+            height: 50px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+
+        /* Make first and last columns wider */
+        th:first-child, td:first-child {
+            width: 80px;
+        }
+
+        th:last-child, td:last-child {
+            width: 70px;
+        }
+
+        /* Adjust other columns to share remaining space */
+        th:not(:first-child):not(:last-child), 
+        td:not(:first-child):not(:last-child) {
+            width: calc((100% - 170px) / 12);
+        }
+
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        td {
+            font-size: 20px; 
+            font-weight: bold; 
+        }
+  </style>
+</head>
+<body>
+    <div class="header">
+		<h1 class="title">REDWOOD CITY, CA</h1>
+        <h1 class="title">Monthly Mean Daily High</h1>
+        <p class="subtitle">Values updated on the 1st of the month</p>
+    </div>
+    <table>
+        <tr>
+            <th>Year</th>
+            <th>Jan</th>
+            <th>Feb</th>
+            <th>Mar</th>
+            <th>Apr</th>
+            <th>May</th>
+            <th>Jun</th>
+            <th>Jul</th>
+            <th>Aug</th>
+            <th>Sep</th>
+            <th>Oct</th>
+            <th>Nov</th>
+            <th>Dec</th>
+            <th>Avg</th>
+        </tr>
+        <tr>
+            <td>2024</td>
+            <td>61.6</td>
+            <td>62.5</td>
+            <td>65.2</td>
+            <td>70.2</td>
+            <td>76.8</td>
+            <td>82.5</td>
+            <td>85.8</td>
+            <td>83.4</td>
+            <td>81.2</td>
+            <td>80.4</td>
+            <td>62.1</td>
+            <td>61.7</td>
+            <td>72.9</td>
+        </tr>
+        <tr>
+            <td>2025</td>
+            <td>61.6</td>
+            <td>63.6</td>
+            <td>65.9</td>
+            <td>71.1</td>
+            <td>78.1</td>
+            <td>79.4</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>2026</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Avg</td>
+            <td>58.9</td>
+            <td>61.9</td>
+            <td>65.3</td>
+            <td>68.5</td>
+            <td>72.9</td>
+            <td>78.8</td>
+            <td>81.0</td>
+            <td>80.8</td>
+            <td>79.3</td>
+            <td>74.6</td>
+            <td>64.7</td>
+            <td>58.6</td>
+            <td>70.4</td>
+        </tr>
+    </table>
+</body>
+</html>
