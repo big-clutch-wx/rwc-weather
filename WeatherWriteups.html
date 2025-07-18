@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Blog</title>
+    <style>
+        /* Make the video cover the entire viewport */
+        .video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: -1; /* Sends the video to the background */
+        }
+
+        .background-video {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            filter: brightness(50%); /* Adjust brightness for the faded effect */
+        }
+
+        /* General body and content styling */
+        body {
+            font-family: Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: white; /* Adjust content color for readability on the video */
+        }
+
+        .container {
+            position: relative;
+            z-index: 1; /* Bring content above the video */
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.6); /* Semi-transparent background for contrast */
+            border-radius: 8px;
+            color: white;
+        }
+
+        h1, h2, h3 {
+            color: #d3d8ff;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #0056b3;
+            color: white;
+        }
+
+        a {
+            color: #1e90ff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+		.sidebar {
+  position: fixed;
+  top: 100px;
+  right: 30px;
+  width: 220px;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 15px;
+  border-radius: 8px;
+  z-index: 2;
+}
+
+.sidebar h3 {
+  color: #d3d8ff;
+  font-size: 16px;
+  margin-top: 0;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  color: #1e90ff;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+    </style>
+</head>
+<div class="sidebar">
+  <h3>Jump to Section</h3>
+  <ul>
+    <li><a href="#section1">2015–17 Repeats?</a></li>
+    <li><a href="#section2">1997–98 Repeat?</a></li>
+    <li><a href="#section3">1861–62 vs 1996–97</a></li>
+    <li><a href="#section4">Dry Jul–Oct / Wet Nov</a></li>
+    <li><a href="#section5">2024–25 Recap</a></li>
+    <li><a href="#section6">Forgotten Months: May</a></li>
+  </ul>
+</div>
+
+<body>
+    <!-- Video Background Section -->
+    <div class="video-background">
+        <video autoplay muted loop playsinline class="background-video">
+            <source src="11.24 ar.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="container">
+        <h1>Big Clutch's Weather Writeups</h1>
+
+        <section>
+            <h2 id="section1">2015-17 Repeats?</h2>
+            <p><strong>1888-89:</strong> 23.86” (wet November and December, very dry January and February, very wet March, average April and very wet May) “Super El Nino”</p>
+            <p><strong>1889-90:</strong> 45.85” (wettest October, very wet DJFMAM) “Moderate La Nina”</p>
+            <p><strong>2015-16:</strong> 23.26” (wet DJ, very wet March, and Spring altogether, saves rain year) “Super El Nino”</p>
+            <p><strong>2016-17:</strong> 32.34” (wet ONDJFMA, very wet January and February) “Weak La Nina”</p>
+        </section>
+
+        <section>
+            <h2 id="section3">1997-98 Repeat? (120 Years Before)</h2>
+            <p><strong>1877-78:</strong> 35.18” (mid-start, exceptionally wet JFMA, J + F =24.49”) “Super El Nino”</p>
+            <p><strong>1997-98:</strong> 47.22” (very wet August, exceptionally wet ONDJFMAMJ, J + F = 26.97”) “Super El Nino”</p>
+        </section>
+
+        <section>
+            <h2 id="section2">Why 1861-62 and 1996-97 are Nearly Identical (and What We Can Learn)</h2>
+            <p>It is essential to first identify the similarities between the years 1996 and 1861. Both years started with cold, wet storms in November, leading to rainfall exceeding 150% of the average seasonal to-date total. December continued this trend with more cold, wet storms early in the month, significantly boosting the snowpack at the start of the season. In 1861, the active “Pineapple Express” pattern began around the 22nd, while in 1996, it commenced around the 26th. The first few days of 1997 were exceptionally wet in the Sierras, resulting in the melting of most snow below elevations of 9,000 to 10,000 feet. A similar phenomenon occurred in 1862, starting around the 4th and lasting until the 22nd.
+</p>
+			<p>However, this is where the rainfall patterns start to diverge. In 1997, the pattern ended on the 4th, followed by a mid-January dry spell. Another significant storm sequence occurred from the 21st to the 26th, delivering additional rainfall, although by then, many rivers had receded to normal levels. Ultimately, precipitation for the remainder of the 1997 season were quite poor and not noteworthy.
+</p>
+			<p>In contrast, after the 22nd of January 1862, storm activity came to a halt until the end of the month, when it resumed on the 28th and continued until February 2nd. Following this period, a dry spell emerged in mid-February, lasting until around the 18th, when yet another series of storms commenced and persisted until the 27th. Subsequently, a mild spring pattern took over, resulting in average Spring rainfall. The floods of January 1862 were likely 1.8 to 2.2 times larger than those of 1997 in terms of peak discharge and stage heights along rivers and creeks, particularly the American River and the Sacramento River. This disparity in scale is primarily attributed to the fact that the rainfall ceased relatively early in January. Had the wet pattern continued throughout the rest of the month, the resulting rainfall and flooding in the Sierras and the Central Valley could have rivaled, or possibly even surpassed, what occurred in 1862. Another significant difference is that wet conditions persisted into the spring of 1862, a sharp contrast to the extremely low rainfall totals observed after January 1997. While Southern California largely missed much of the rainfall during the 1996-97 events, it was significantly affected in 1861-62, likely receiving more precipitation than the Bay Area to the north. For example, Los Angeles recieved 12.32" from July 1, 1996 - January 31, 1997, which isn't even comparable to the over 60" in 1861-62. The coastal plain in the Los Angeles basin became completely flooded, transforming into a lake, with many mining towns in the mountains washed away. Additionally, the Central Valley did not experience flooding to the same extent in 1997, thanks to modern flood control measures and levees.
+</p>
+			<p>It is also important to highlight a couple of notable similarities: both the 1861-62 and 1996-97 periods were classified as El Niño Southern Oscillation (ENSO) neutral years. This correlation is significant, considering that some of California's most severe floods occur during weak La Niña or neutral ENSO phases. This phenomenon can be primarily attributed to the Madden-Julian Oscillation (MJO), which tends to be strongest during these ENSO phases. The MJO for reference is an area enhanced and suppressed tropical rainfall that mainly propagates eastward over the Indian and Pacific Oceans, completing a trip around the world in 30-60 days with an 8 phase cycle. Flooding and extreme rainfall are not guaranteed with every occurrence of these ENSO events, but they do present a heightened risk that should always be taken into consideration. When the El Niño-Southern Oscillation (ENSO) is neutral or weak, other factors tend to play a more significant role, including the Pacific Decadal Oscillation (PDO), the Pacific-North American teleconnection pattern (PNA), and the North Atlantic Oscillation (NAO), among others. A positive PNA phase, in conjunction with an extended Pacific jet and below-average 500mb geopotential height over the North Pacific, played a crucial role in facilitating the movement of surface lows and atmospheric rivers (AR) into California during December and January of 1861-62 and 1996-97. The Madden-Julian Oscillation (MJO) was in phase 7-8 during the 1996-97 floods. 1861-62 probably following a similar MJO track, though hitting different phases at different times, had a possibility that the MJO became stuck in phase 3, 1, 7, or even 4, causing the prolonged Pineapple Express pattern. Phases 1, 3, 4, and 7 being ideal for atmospheric forcing into favorable patterns and channeling moisture into surface lows and generating warm, intense ARs. 1996-97 had the most active MJO on record, and 1861-62 most likely rivals 1996-97 in that regard as well. 
+</p>
+			<p>This comparison highlights the importance of taking neutral and weak La Niñas seriously. While significant attention is often focused on El Niños—particularly "Super El Niños," which typically result in record rainfall for California if they are persistent—the ARkStorm (a hypothetical 1 in 1000 year precipitation event) is more likely to occur in a weak La Niña or neutral year rather than during an El Niño, as is commonly assumed. During El Niño years, there is a notable absence of the MJO, which complicates the likelihood of a sustained wet pattern like that of 1862. A pattern reminiscent of 1862 is extremely rare, occurring only about once every 150-250 years, while the 1996-97 event is estimated to happen every 50-150 years. This frequency is further increased by rising sea surface temperatures (SST) and overall atmospheric warming. We've experienced several significant precipitation events over the past decade (notably in 2022-23, 2016-17, and 2005-06) that have highlighted the importance of not underestimating weak ENSO events, including the need to remain alert during neutral years. The 1996-97 event should serve as a minimum benchmark for flood control measures, while the 1861-62 event should be regarded as the standard. This perspective may appear unnecessary to those unfamiliar with California's climatology or who do not reside in flood-prone regions. However, recent flooding incidents elsewhere in the globe—and in the United States—are likely to shift some opinions on this matter. The California Department of Water Resources (DWR) has made significant improvements to flood control systems in the Central Valley since 1997, yet further enhancements are necessary to adequately address the risks associated with a 150-250-year flood event, particularly concerning levee integrity and reservoir overflow management.
+</p>
+        </section>
+
+        <section>
+            <h2 id="section4">Dry July-October, Wet November (Similar to 2024-25)</h2>
+            <p><strong>S.F Average:</strong> 22.89”</p>
+            <p><strong>Wet November:</strong> 3-4”+</p>
+			 <p>Sources: <a href="https://www.webberweather.com/ensemble-oceanic-nino-index.html" target="_blank">Webber Weather,</a>
+			 <a href="https://ggweather.com/sf/monthly.html" target="_blank">GG Weather</a>
+			 </p>
+
+            <h3>Near Exact Matches: &lt;0.25” (J-O)</h3>
+            <table>
+                <tr>
+                    <th>Year</th>
+                    <th>Rainfall (inches)</th>
+                    <th>ENSO Phase</th>
+                </tr>
+                <tr>
+                    <td>1861-62</td>
+                    <td>49.27</td>
+                    <td>Neutral*</td>
+                </tr>
+                <tr>
+                    <td>1859-60</td>
+                    <td>22.27</td>
+                    <td>Neutral*</td>
+                </tr>
+                <tr>
+                    <td>1866-67</td>
+                    <td>34.92</td>
+                    <td>Neutral*</td>
+                </tr>
+                <tr>
+                    <td>1928-29</td>
+                    <td>15.21</td>
+                    <td>Neutral</td>
+                </tr>
+				<tr>
+					<td>1903-04</td>
+					<td>20.59</td>
+					<td>Weak La Nina</td>
+				</tr>
+				<tr>
+					<td>2018-19</td>
+					<td>25.72</td>
+					<td>Weak El Nino</td>
+				</tr>
+				<tr>
+					<td>1867-68</td>
+					<td>38.84</td>
+					<td>Neutral*</td>
+				</tr>
+				<tr>
+					<td>1871-72</td>
+					<td>30.78</td>
+					<td>Neutral*</td>
+				</tr>
+				<tr>
+					<td>1875-76</td>
+					<td>31.19</td>
+					<td>Neutral*</td>
+				</tr>
+				<tr>
+					<td>1966-67</td>
+					<td>29.41</td>
+					<td>Neutral</td>
+				</tr>
+				<tr>
+					<td>2001-02</td>
+					<td>25.03</td>
+					<td>Neutral</td>
+				</tr>
+				<tr>
+					<th>Average</th>
+					<th>29.38 (128%)</th>
+					<th>Mostly Neutral</th>
+				</tr>
+					
+            </table>
+			<p>*ENSO phases before 1877 may not be totally accurate
+
+     
+        </section>
+		<section>
+    <h2>Rainfall Comparisons for DJFM</h2>
+
+    <h3>Near Exact Matches (December: 4.76”)</h3>
+    <table>
+        <tr>
+            <th>Year</th>
+            <th>Rainfall (inches)</th>
+        </tr>
+        <tr>
+            <td>1861-62</td>
+            <td>9.54</td>
+        </tr>
+        <tr>
+            <td>1859-60</td>
+            <td>1.57</td>
+        </tr>
+        <tr>
+            <td>1866-67</td>
+            <td>15.16</td>
+        </tr>
+        <tr>
+            <td>1928-29</td>
+            <td>4.89</td>
+        </tr>
+        <tr>
+            <td>1903-04</td>
+            <td>1.63</td>
+        </tr>
+        <tr>
+            <td>2018-19</td>
+            <td>2.18</td>
+        </tr>
+        <tr>
+            <td>1867-68</td>
+            <td>10.69</td>
+        </tr>
+        <tr>
+            <td>1875-76</td>
+            <td>4.15</td>
+        </tr>
+        <tr>
+            <td>1871-72</td>
+            <td>14.36</td>
+        </tr>
+        <tr>
+            <td>1966-67</td>
+            <td>3.87</td>
+        </tr>
+        <tr>
+            <td>2001-02</td>
+            <td>10.75</td>
+        </tr>
+        <tr>
+            <th>Average</th>
+            <th>7.16 (150%)</th>
+        </tr>
+    </table>
+
+    <h3>Near Exact Matches (January: 4.40”)</h3>
+    <table>
+        <tr>
+            <th>Year</th>
+            <th>Rainfall (inches)</th>
+        </tr>
+        <tr>
+            <td>1861-62</td>
+            <td>24.36</td>
+        </tr>
+        <tr>
+            <td>1859-60</td>
+            <td>1.64</td>
+        </tr>
+        <tr>
+            <td>1866-67</td>
+            <td>5.16</td>
+        </tr>
+        <tr>
+            <td>1928-29</td>
+            <td>1.32</td>
+        </tr>
+        <tr>
+            <td>1903-04</td>
+            <td>1.05</td>
+        </tr>
+        <tr>
+            <td>2018-19</td>
+            <td>5.13</td>
+        </tr>
+        <tr>
+            <td>1867-68</td>
+            <td>9.50</td>
+        </tr>
+        <tr>
+            <td>1875-76</td>
+            <td>7.55</td>
+        </tr>
+        <tr>
+            <td>1871-72</td>
+            <td>4.00</td>
+        </tr>
+        <tr>
+            <td>1966-67</td>
+            <td>9.49</td>
+        </tr>
+        <tr>
+            <td>2001-02</td>
+            <td>2.13</td>
+        </tr>
+        <tr>
+            <th>Average</th>
+            <th>6.48 (147%)</th>
+        </tr>
+    </table>
+
+    <h3>Near Exact Matches (February: 4.37”)</h3>
+    <table>
+        <tr>
+            <th>Year</th>
+            <th>Rainfall (inches)</th>
+        </tr>
+        <tr>
+            <td>1861-62</td>
+            <td>7.53</td>
+        </tr>
+        <tr>
+            <td>1859-60</td>
+            <td>6.32</td>
+        </tr>
+        <tr>
+            <td>1866-67</td>
+            <td>7.20</td>
+        </tr>
+        <tr>
+            <td>1928-29</td>
+            <td>2.14</td>
+        </tr>
+        <tr>
+            <td>1903-04</td>
+            <td>5.89</td>
+        </tr>
+        <tr>
+            <td>2018-19</td>
+            <td>7.94</td>
+        </tr>
+        <tr>
+            <td>1867-68</td>
+            <td>6.13</td>
+        </tr>
+        <tr>
+            <td>1875-76</td>
+            <td>4.92</td>
+        </tr>
+        <tr>
+            <td>1871-72</td>
+            <td>6.90</td>
+        </tr>
+        <tr>
+            <td>1966-67</td>
+            <td>0.22</td>
+        </tr>
+        <tr>
+            <td>2001-02</td>
+            <td>2.59</td>
+        </tr>
+        <tr>
+            <th>Average</th>
+            <th>5.25 (120%)</th>
+        </tr>
+    </table>
+
+    <h3>Near Exact Matches (March: 3.15”)</h3>
+    <table>
+        <tr>
+            <th>Year</th>
+            <th>Rainfall (inches)</th>
+        </tr>
+        <tr>
+            <td>1861-62</td>
+            <td>2.20</td>
+        </tr>
+        <tr>
+            <td>1859-60</td>
+            <td>3.99</td>
+        </tr>
+        <tr>
+            <td>1866-67</td>
+            <td>1.58</td>
+        </tr>
+        <tr>
+            <td>1928-29</td>
+            <td>1.56</td>
+        </tr>
+        <tr>
+            <td>1903-04</td>
+            <td>6.01</td>
+        </tr>
+        <tr>
+            <td>2018-19</td>
+            <td>4.33</td>
+        </tr>
+        <tr>
+            <td>1867-68</td>
+            <td>6.30</td>
+        </tr>
+        <tr>
+            <td>1875-76</td>
+            <td>5.49</td>
+        </tr>
+        <tr>
+            <td>1871-72</td>
+            <td>1.59</td>
+        </tr>
+        <tr>
+            <td>1966-67</td>
+            <td>4.35</td>
+        </tr>
+        <tr>
+            <td>2001-02</td>
+            <td>2.27</td>
+        </tr>
+        <tr>
+            <th>Average</th>
+            <th>3.61 (115%)</th>
+        </tr>
+    </table>
+	<h2>Conclusions</h2>
+	<p>Out of DJFM, at least two months should have above-average rainfall in 2024-2025. 2024-2025 should end up a neutral year based on data.
+</p>
+</section>
+<section>
+	<h2 id="section5">2024-25 Recap - I Was Right! - Or Was It The Data?</h2>
+<p>With the 2024-25 rainfall season concluding, it would be right to look back on my predictions for the season. I predicted out of December, January, February, and March, at least two would be above average it would be an ENSO neutral year. I was correct on both. December and February were both above average (116% and 180% respectively). However January and March were quite a bit below average, with January being almost completely dry and March being underwelming. The ENSO stayed mostly around the neutral phase, dipping slightly into La Nina territory, but not for long enough to be considered as such. I could say I was right, but was it also the data? I made the prediction at the end of the day, but it was based almost solely on the data and some reasoning. 1903-04 was the perfect comparision to this season, albeit with some differences that we'll ignore. The extreme south-north dipole was something I certainly should've seen coming in October and into November, but hindsight was not 20/20 and I was not aware of 1903-04. It was one of the wettest seasons along the North Coast and vice versa in So-Cal. 2024-25 did not come close to 1903-04 in terms of North Coast precipitation, but did in So-Cal. It kind of matched up elsewhere, but nothing is ever going to be a 100% match, it's nearly impossible. There have been 3 notable north-south dipoles: 1903-04, 1962-63, and now 2024-25. Each are around 50 years apart, which could make the average of these seasons a 1/50 year event marker for north-south dipoles. I thought there was a chance of a 1996-97 repeat, and I was almost right, but the rainfall in November and February just didn't match totals from the 1997 event. The whole time it was a distraction from the blatant dipole which was the main star of the season the entire time. I think it made me care more about So-Cal weather especially after the devastating fires. It makes me feel like I need to do a whole lot more research seasonal precipitation distribution in California, which should help a ton in making better predictions and understanding where a season might be headed. I never realized where this season was headed until January, when I was bored and waiting for the next big AR. I found out about 1903-04 and 1962-63 and the rest was history. The frustrating part is that 1903-04 was included in this prediction back in November. I just never knew the southern part of that season. </p>
+</section>
+<section>
+	<h2 id="section6">The Forgotten Months (1/5): April Showers Bring May Floods </h2>
+<p> INTRODUCTION: In California, October - April usually get the most attention when talking about precipitation. You might be able to think of some notable extreme precipitation events during these months. Columbus Day 1962, November 1994, December 1955, January 1997 or 1862, February 1998, March 1982, even April 1880 or 2006. Can you think of anything in May, June, July, August, and September? Probably not, and I am here to fill the gap. </p>
+<p>Nobody usually thinks about May much if not at all, despite it being the wettest of the forgotten months, it still lacks anything truly special. No tropical remanants, no large snows, just a calm end to the season most of the time. Sometimes, May can be wetter than some of the wettest months. Take May 1925 for example, the wettest May in San Francisco, though not by much. 4.02" fell that month in what was already a great rain season to begin with. In fact that season stands out for being the only 30" rain season in San Francisco between 1889-90 and 1940-41. Well above average October, December, and February was already enough, but then came in May 1925. 1.34" on the 12th and a further 1.24" on the 19th are the two highlight days. The insane part is that May had over double the amount January had that season - 1.62" compared with 4.02". You might intially believe that the 4.02" was January and 1.62" was May, but you'd be mistaken (the average May precipitation is 0.70" in S.F). The wettest place that month was Big Sur which recorded 6.97". It seems based on data, most of the systems were coastal huggers, mainly focused on the Central CA coast. The Associated Press in Sacramento remarked on May 20, "A heavy rain swept in from the coast last night and innundated portions of the San Joaquin and Sacramento valleys and continued today." The NOAA/CIRES/DOE 20th Century Reanalysis V3 shows exactly what is expected, a strong Aluetian Low with a large North American ridge and a cut-off low off the coast of California on the 12th (first storm). That same strong Aluetian Low moved east and by the 19th became cut-off and moved down the coast of CA still with a strong NA ridge (second storm), explaining the seemingly coastal nature of the precipitaiton totals. -24dam+ anomalies are shown on the reanalysis, which makes sense given the rare nature of the storm and precipitation totals.</p>
+<img src="5.12.1925 rev3.png" width="800" height="700" />
+<img src="5.19.1925 rev3.png" width="800" height="700"/>
+<p>Another notable May was back in 1957.</p>        
+           
+        
+    </div>
+</body>
+</html>
+

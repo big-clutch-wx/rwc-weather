@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snow in RWC</title>
+    <style>
+        /* Make the video cover the entire viewport */
+        .video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: -1; /* Sends the video to the background */
+        }
+
+        .background-video {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            filter: brightness(50%); /* Adjust brightness for the faded effect */
+        }
+
+        /* General body and content styling */
+        body {
+            font-family: Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: white; /* Adjust content color for readability on the video */
+        }
+
+        .container {
+            position: relative;
+            z-index: 1; /* Bring content above the video */
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.6); /* Semi-transparent background for contrast */
+            border-radius: 8px;
+            color: white;
+        }
+
+        h1, h2, h3 {
+            color: #84f4f8;
+        }
+
+        h1, h2, h3 {
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #0056b3;
+            color: white;
+        }
+
+        a {
+            color: #1e90ff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Video background -->
+    <video autoplay muted loop playsinline class="video-background">
+        <source src="marchblizzard.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <div class="container">
+        <h1>Snowfall Events in Redwood City</h1>
+
+        <section>
+            <h2>February 1887</h2>
+            <p>On the morning of February 5th, 3-4" fell in Redwood City. San Jose Herald - "Redwood City, February 5. -It began to snow here at 5:30 this morning, and by 8 o'clock everything was covered to a depth of three or four inches." NOAA-CIRES 20th Century Reanalysis V2 shows a very strong upper-level low with 500mb anomalies at least -35 decameters off the immediate coast of California. On the morning of the 5th, the center of the low had moved right offshore of the Bay Area, with counter-clockwise flow rushing cold air into California. The low had apparentely become stagnant for at least a week over the Pacific Northwest, only beginning a southward movement around the 4th into the 5th. The low had gathered enough moisture and cold air to have significant snowfall in Redwood City and the greater Bay Area. February 5, 1887 is one of the snowiest days in Redwood City's history to this day.<p>
+        </section>
+		<section>
+			<h2>December 1932</h2>
+			<p>On December 11, 1932, around 1-3" of snow fell in San Francisco and the wider Bay Area. Farmers in the Santa Clara Valley reported an inch or more of snow covering their plants. The second lowest temperature ever recorded in Redwood City, 18 degrees, was on December 12. A low of 23 on the 11th, 19 on the 13th, 22 on the 14th, 20 on the 15th and finally 26 on 16th all culminated in the coldest one week strech in Redwood City's history. Officially, 0.2" was recorded, though it could've been locally much more, or inaccurate measurements were used. The Reanalysis shows a strong upper-level high over Alaska and the wider Gulf and North Pacific, creating a blocking pattern with one of the lows retrograding towards California from the Great Basin around the 8-9th, and then taking a southeasternly route down to Arizona. With California on its west end, it allowed for Arctic cold air from Canada and the Rockies to pour right into Northern California that week.</p>
+		</section>
+		<section>
+			<h2>January 1962</h2>
+			<p>On the morning of January 21,</p>
+</html>
