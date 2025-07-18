@@ -85,8 +85,24 @@
         a:hover {
             text-decoration: underline;
         }
+	.logo-bottom-right {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 10;
+}
+
+.logo-bottom-right img {
+  width: 80px;  /* Adjust this to your desired size */
+  height: auto;
+}
+    
     </style>
 </head>
+	<div class="logo-bottom-right">
+  <img src="bccslogo.png" alt="Logo" />
+</div>
+
 <body>
     <!-- Video background -->
     <video autoplay muted loop playsinline class="video-background">
